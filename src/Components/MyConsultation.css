@@ -1,0 +1,193 @@
+/* General Styles */
+body {
+  font-family: "Poppins";
+  background-color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Listing Top Bar */
+.listingtopbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.listingtopbar h1 {
+  margin: 0;
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.9375rem;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.0775rem;
+  margin-left: 8rem;
+}
+
+.listingtopbar .search {
+  display: flex;
+  align-items: center;
+}
+
+.listingtopbar .search .searchicon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.search select {
+  padding: 0.9375rem 1.1875rem;
+  border-radius: 0.625rem;
+  background: #f3f3f3;
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+  margin-left: 2rem;
+}
+
+/* Consultation Table */
+.consultation-table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 8rem;
+  margin-right: 2rem;
+}
+
+.consultation-table th,
+.consultation-table td {
+  padding: 15px;
+  text-align: left;
+}
+
+.consultation-table th {
+  background-color: #f0f4ff;
+  color: #9ab7ff;
+  font-weight: normal;
+}
+
+.consultation-table td {
+  border-top: 1px solid #f0f4ff;
+}
+
+.consultation-cards {
+  display: none;
+}
+
+.client-name {
+  font-weight: 500;
+}
+
+.sub-text {
+  font-weight: normal;
+  color: #b3b3b3;
+  font-size: 0.8rem;
+}
+
+.badge.property {
+  background-color: #ffe3e3;
+  color: #ca1b1b;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.badge.legal {
+  background-color: #e7ffe3;
+  color: #0db413;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.consultation-card .badge {
+  display: inline-block;
+  padding-top: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 5px;
+}
+
+/* Mobile Version */
+@media (max-width: 768px) {
+  .consultation-cards {
+    display: block;
+  }
+
+  .consultation-table {
+    display: none;
+  }
+
+  .listingtopbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .listingtopbar h1 {
+    margin-left: 0;
+  }
+
+  .consultation-card {
+    background: white;
+    border: solid 1px #ededed;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .consultation-card .client-name {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .consultation-card .sub-text {
+    color: #b3b3b3;
+    font-size: 0.875rem;
+  }
+
+  .consultation-card .badge-container {
+    margin-top: 1rem;
+  }
+
+  .consultation-card .badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 5px;
+  }
+
+  .badge.property {
+    background-color: #ffe3e3;
+    color: #ca1b1b;
+  }
+
+  .badge.legal {
+    background-color: #e7ffe3;
+    color: #0db413;
+  }
+
+  .consultation-card .details {
+    margin-top: 1rem;
+  }
+
+  .consultation-card .details div {
+    margin-bottom: 1rem;
+  }
+}

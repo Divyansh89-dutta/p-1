@@ -1,0 +1,167 @@
+.Searchbar {
+  display: flex;
+  display: inline-flex;
+  padding: 1.25rem 1.6875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 3.34375rem;
+  background: #fff;
+  box-shadow: 2px 4px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.prop-type,
+.prop-loca,
+.prop-size,
+.prop-budg {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+}
+
+.prop-type div p,
+.prop-loca div p,
+.prop-size div p,
+.prop-budg div p {
+  color: #606060;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prop-type select,
+.prop-budg select,
+.prop-size select {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.02125rem;
+
+  border: none;
+}
+
+.prop-loca select {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+.prop-size input {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.02125rem;
+}
+
+.Searchbar button {
+  display: flex;
+  padding: 1.1875rem 3.4375rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 2.65625rem;
+  background: #2e6eff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.02375rem;
+  border: none;
+}
+
+@media (max-width: 768px) {
+
+  
+  .search1,
+  .search2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Searchbar {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    margin-top: 30rem;
+    width: auto;
+    padding: 0.875rem 1.5625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 4px 4px 42px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .heythere {
+    align-items: center;
+  }
+
+  .prop-type div p,
+  .prop-loca div p,
+  .prop-size div p,
+  .prop-budg div p {
+    color: #606060;
+    font-family: Poppins;
+    font-size: 0.61506rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .prop-type svg,
+  .prop-loca svg,
+  .prop-size svg,
+  .prop-budg svg {
+    width: 1.05438rem;
+    height: 1.23006rem;
+  }
+
+  .prop-type select,
+  .prop-loca select,
+  .prop-size select,
+  .prop-budg select {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 0.74681rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.01494rem;
+  }
+
+  .Searchbar button {
+    display: flex;
+    width: 6rem;
+    height: 1.8125rem;
+    padding: 0.3125rem 1.125rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.40625rem;
+    background: #2e6eff;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+  }
+}

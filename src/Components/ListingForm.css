@@ -1,0 +1,652 @@
+.ListingForm .step {
+  display: flex;
+  gap: 2rem;
+}
+
+.ListingForm .step .stepnumber {
+  color: #707070;
+  font-family: Poppins;
+  font-size: 1.4375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ListingForm .step .list-left img {
+  width: 25.75rem;
+  height: 13.73781rem;
+  flex-shrink: 0;
+}
+
+.ListingForm .step .list-left h3 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 2.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.085rem;
+  width: 32.875rem;
+}
+
+.ListingForm .step .list-left h6 {
+  color: #666;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.045rem;
+  width: 28.9375rem;
+}
+
+.ListingForm .step .list-left .buttons .leftbutton img {
+  width: 2.375rem;
+  height: 2.375rem;
+}
+
+.buttons .leftbutton {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buttons .leftbutton p {
+  color: #8b8b8b;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.045rem;
+}
+
+.buttons .rightbutton {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-left: 16rem;
+  gap: 1rem;
+}
+
+.ListingForm .step .list-left .buttons .rightbutton img {
+  width: 2.375rem;
+  height: 2.375rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons .rightbutton p {
+  color: #2e6eff;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.045rem;
+}
+
+.ListingForm .list-right h3 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.055rem;
+}
+
+.ListingForm .list-right {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.ListingForm .list-right label {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.045rem;
+}
+
+.ListingForm .list-right input {
+  width: 34.5rem;
+  height: 180px;
+  border-radius: 0.6875rem;
+  border: 1px solid #bababa;
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.045rem;
+  padding-left: 1rem;
+  padding: 1rem;
+}
+
+.ListingForm .list-right select {
+  display: flex;
+  width: 34.5rem;
+  padding: 1.375rem 2.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 0.6875rem;
+  border: 1px solid #d6d6d6;
+  background: #fff;
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.045rem;
+  padding-right: 1rem;
+}
+
+.ListingForm .list-right input:focus {
+  outline: #2e6eff;
+  border: 1px solid #2e6eff;
+}
+
+.ListingForm .list-right .statuslabel {
+  display: flex;
+  gap: 2rem;
+}
+
+.ListingForm .list-right .labels {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ListingForm .list-right .status {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formattext {
+  height: auto;
+}
+
+.ListingForm .list-right .statuslabel select {
+  width: 17rem;
+}
+
+.ListingForm .list-right {
+  height: 40.5625rem;
+  overflow-y: auto;
+}
+
+.ql-editor {
+  min-height: 10rem;
+}
+
+.ListingForm .list-right input::-webkit-outer-spin-button,
+.ListingForm .list-right input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  pointer-events: none;
+  cursor: text;
+}
+
+.ListingForm {
+  align-items: center;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+.ck-editor__editable_inline {
+  min-height: 12rem;
+}
+
+.buttonss {
+  display: none;
+}
+
+.container {
+  text-align: center;
+}
+
+.image-preview {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.image-preview img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+.featured-image-preview {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.featured-image-preview img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+#imageUpload {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#featimg {
+  min-height: 2rem;
+  display: block;
+}
+
+.sint {
+  display: flex;
+  gap: 2rem;
+}
+
+.sint input {
+  max-width: 15rem;
+  max-height: 2rem;
+}
+
+.sint .bedrooms {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sint .rooms {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.loop-content {
+  display: flex;
+  gap: 2rem;
+}
+
+.loop-content input {
+  max-width: 15rem;
+  max-height: 2rem;
+}
+
+.loop-content .loopc1,
+.loopc2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.plus-button {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  flex-shrink: 0;
+  color: #8d8d8d;
+  font-family: Poppins;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+  border-radius: 0.5625rem;
+  background: #fff;
+  box-shadow: 2px 4px 26px 0px rgba(0, 0, 0, 0.08);
+  border: none;
+  align-self: center;
+}
+
+.list-right input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+}
+
+.choose {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+  padding: 1.0625rem 1.4375rem;
+
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.625rem;
+  background: #fff;
+  box-shadow: 3px 4px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+.list-right .amenities {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1rem;
+}
+
+.customamen {
+  max-height: 1rem;
+  max-width: 17rem;
+}
+
+.newinput input {
+  max-height: 2rem;
+}
+
+.newinput {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.virt-input {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+}
+
+.virt-input::placeholder {
+  margin-top: -4rem;
+}
+
+.floor-form input {
+  max-height: 2rem;
+}
+
+.floor-form {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.floor-button {
+  display: inline-flex;
+  padding: 11px 32px;
+  width: 9rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 26px;
+  background: #faa24c;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
+
+.plantitle {
+  margin-top: 2rem;
+}
+
+.realestate-form input {
+  max-height: 2rem;
+}
+
+.realestate-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.realestate-form a {
+  color: #2e6eff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.3px;
+}
+
+.listing-button {
+  display: flex;
+  padding: 16px 52px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #2e6eff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  border: none;
+  cursor: pointer;
+  width: 17rem;
+  align-self: center;
+  margin-top: 2rem;
+}
+@media (max-width: 768px) {
+  .choose {
+    display: flex;
+    padding: 0.58688rem 0.794rem;
+    padding-left: 0rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+    border-radius: 0.34519rem;
+    background: #fff;
+    box-shadow: 1.657px 2.209px 11.047px 0px rgba(0, 0, 0, 0.08);
+    width: auto;
+  }
+
+  .choose label {
+    margin-left: -6rem;
+  }
+
+  .list-right input[type="checkbox"] {
+    gap: 0rem;
+    margin-left: -6rem;
+  }
+  .sint {
+    flex-direction: column;
+  }
+
+  .loop-content {
+    flex-direction: column;
+  }
+
+  .ListingForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-right {
+    height: 300rem;
+    overflow-y: hidden;
+  }
+
+  .step {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 0;
+  }
+
+  .ListingForm .step .list-left img {
+    width: 15.90306rem;
+    height: 8.48438rem;
+  }
+
+  .ListingForm .step .list-left .stepnumber {
+    color: #707070;
+    font-family: Poppins;
+    font-size: 0.88781rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .ListingForm .step .list-left h3 {
+    width: 20.30344rem;
+    color: #333133;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0525rem;
+  }
+
+  .ListingForm .step .list-left h6 {
+    width: 17.87163rem;
+    color: #666;
+    font-family: Poppins;
+    font-size: 0.69481rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02781rem;
+  }
+
+  .buttonss {
+    display: flex;
+  }
+
+  .leftbuttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .rightbuttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  .ListingForm .list-right h3 {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 0.79919rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.03194rem;
+  }
+
+  .ListingForm .list-right label {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 0.65388rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02613rem;
+  }
+
+  .ListingForm .list-right input {
+    width: 16rem;
+    height: 1rem;
+    padding: 1rem;
+    border-radius: 0.39963rem;
+    border: 1px solid #bababa;
+    color: #000;
+    font-family: Poppins;
+    font-size: 0.65388rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02613rem;
+  }
+
+  .ListingForm .list-right select {
+    width: 16rem;
+    height: 35px;
+    padding: 0.7rem;
+    font-size: 0.65388rem;
+  }
+
+  .ListingForm .list-right .statuslabel select {
+    width: 7.5rem;
+    height: 35px;
+    padding: 0.7rem;
+    font-size: 0.65388rem;
+  }
+
+  .ListingForm .list-left {
+    margin-left: 0rem;
+  }
+
+  .ListingForm .list-right {
+    margin-left: 2rem;
+    height: auto;
+  }
+
+  .ListingForm {
+    margin-left: 0rem;
+  }
+
+  .buttonss {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    align-self: center;
+    align-content: center;
+    margin-left: 3rem;
+  }
+
+  .buttonss .rightbuttons {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .buttonss p {
+    color: #8b8b8b;
+    font-family: Poppins;
+    font-size: 0.776rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.03106rem;
+  }
+
+  .buttonss .rightbuttons p {
+    color: #2e6eff;
+    font-family: Poppins;
+    font-size: 0.776rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.03106rem;
+  }
+}

@@ -1,0 +1,265 @@
+.notifications-container {
+    width: 85%;
+    margin: 0 auto;
+    font-family: Poppins;
+    margin-left: 7rem;
+  }
+  
+  .listingtopbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .listingtopbar h1 {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 1.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0775rem;
+  }
+  
+  .mark-all-read {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .filter-buttons button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+  }
+  
+  .filter-buttons .active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .notifications-list {
+    margin-top: 20px;
+  }
+  
+  .notification-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    padding: 15px;
+    margin-bottom: 1.2rem;
+    border-radius: 5px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .notification-item.read {
+    background-color: #f9f9f9;
+  }
+  
+  .notification-item.unread {
+    background-color: #fff;
+  }
+  
+  .notification-icon {
+    width: 4.875rem;
+    height: 4.875rem;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .notification-details {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .notification-details strong {
+    display: block;
+    font-size: 1.3125rem;
+    color: #333133;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0525rem;
+  }
+  
+  .notification-details p {
+    margin: 5px 0 0 0;
+    font-size: 1.125rem;
+    color: #8d8d8d;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.045rem;
+    margin-top: 0.5rem;
+  }
+  
+  .action-button,
+  .action-buttons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.045rem;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .decline {
+    background-color: #dc3545;
+  }
+  
+  .accept {
+    background-color: #28a745;
+  }
+
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close-popup-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .notifications-container {
+      width: 90%;
+      margin-left: 2rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .notifications-container {
+      width: 95%;
+      margin-left: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .listingtopbar h1 {
+      font-size: 1.5rem;
+    }
+
+    .filter-buttons {
+        margin-left: -2rem;
+    }
+
+    .notification-details strong {
+        margin-top: 1rem;
+    }
+  
+    .notification-item {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 90%;
+    }
+  
+    .notification-icon {
+      width: 4rem;
+      height: 4rem;
+    }
+  
+    .action-buttons,
+    .action-button {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .notification-details {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .listingtopbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .filter-buttons {
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .notification-details strong {
+      font-size: 1rem;
+    }
+  
+    .notification-details p {
+      font-size: 0.875rem;
+    }
+  
+    .action-buttons,
+    .action-button {
+      padding: 8px;
+    }
+  }
+  

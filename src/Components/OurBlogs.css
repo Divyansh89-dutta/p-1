@@ -1,0 +1,231 @@
+.our-blogs-header h1 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.1125rem;
+  align-self: center;
+}
+
+.our-blogs-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-blogs-header p {
+  color: #808080;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.03375rem;
+  text-transform: capitalize;
+  margin-top: 0rem;
+}
+
+.our-blogs-header input {
+  width: 39.4375rem;
+  height: 3.125rem;
+  flex-shrink: 0;
+  border-radius: 5rem;
+  background: #f2f2f2;
+  color: #979797;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.03563rem;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.blog-first-card {
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  align-self: center;
+}
+
+.first-blog-img {
+  width: 31.5rem;
+  height: 23.1875rem;
+  border-radius: 1rem;
+}
+
+.blog-first-card h4 {
+  color: #2e6eff;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0475rem;
+  text-transform: uppercase;
+}
+
+.blog-first-card h2 {
+  width: 25.125rem;
+  color: #333133;
+  font-family: Poppins;
+  font-size: 2.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.1275rem;
+  text-transform: capitalize;
+}
+
+.blog-first-card p {
+  color: #636363;
+  font-family: Poppins;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0425rem;
+  text-transform: capitalize;
+  width: 28.4375rem;
+}
+
+.first-blog-card-details {
+  display: flex;
+  align-items: center;
+}
+
+.first-blog-details {
+  margin-left: 2rem;
+}
+
+.first-blog-date {
+  margin-left: -14rem;
+}
+
+.blog-first-card {
+  margin-left: 8rem;
+  margin-top: 3rem;
+}
+
+.blog-posts {
+  display: flex;
+  gap: 3rem;
+  width: 85%;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-left: 6rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  .our-blogs-header h1 {
+    font-size: 1.25rem; /* Adjusted font size for smaller screens */
+    letter-spacing: 0.05rem; /* Reduced letter spacing */
+    text-align: center; /* Center text */
+  }
+
+  .our-blogs-header p {
+    font-size: 0.875rem; /* Adjusted font size */
+    letter-spacing: 0.02rem; /* Reduced letter spacing */
+    text-align: center; /* Center text */
+    margin-top: 0.5rem; /* Adjusted margin */
+  }
+
+  .our-blogs-header input {
+    width: 90%; /* Reduce width to fit smaller screens */
+    height: 2.5rem; /* Adjusted height */
+    border-radius: 1.5rem; /* Adjusted border radius */
+    font-size: 0.875rem; /* Adjusted font size */
+    padding: 0 1rem; /* Adjusted padding */
+  }
+
+  .blog-first-card {
+    flex-direction: column; /* Stack elements vertically */
+    width: 100%; /* Full width */
+    margin: 1rem 0; /* Adjusted margin */
+    align-items: center; /* Center align items */
+  }
+
+  .first-blog-img {
+    width: 86%;
+    height: 13rem;
+  }
+
+  .blog-first-card h4,
+  .blog-first-card h2,
+  .blog-first-card p {
+    text-align: center; /* Center text */
+    width: 90%; /* Ensure text fits within the screen */
+  }
+
+  .first-blog-card-details {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items */
+  }
+
+  .first-blog-date {
+    margin: 0.5rem 0; /* Adjusted margin */
+    text-align: center; /* Center align text */
+  }
+
+  .blog-posts {
+    flex-direction: column; /* Stack blog posts vertically */
+    gap: 1rem; /* Adjusted gap */
+    width: 100%; /* Full width */
+    margin: 0; /* Remove margin */
+    padding: 0 1rem; /* Add padding */
+  }
+
+  .blog-posts .blog-card {
+    width: 100%; /* Full width for blog cards */
+  }
+
+  .blog-article {
+    padding: 1.2rem;
+  }
+
+  .our-blogs-header p {
+    width: 17rem;
+  }
+
+  .first-blog-details h4 {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .first-blog-details h2 {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.02269rem;
+    text-transform: capitalize;
+    text-align: left;
+  }
+
+  .first-blog-details p {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  .first-blog-card-details {
+    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .blog-card-author p {
+    width: 10rem;
+  }
+}

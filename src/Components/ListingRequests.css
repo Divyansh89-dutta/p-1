@@ -1,0 +1,131 @@
+.adminpropheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55rem;
+  margin-left: 2rem;
+}
+
+.adminpropheader h1 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.06rem;
+}
+
+.adminpropheader img {
+  width: 2.4375rem;
+  height: 2.4375rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.adminpropheader div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.listingrequests {
+  padding: 20px;
+}
+
+.adminpropheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.request-list {
+  margin-top: 20px;
+}
+
+.request-widget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #e5e5e5;
+}
+
+.request-info h2 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0475rem;
+}
+
+.request-info p {
+  color: #676767;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+}
+
+.request-info a {
+  color: #2d6efe;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+}
+
+.request-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.view-listing-btn {
+  width: 9.875rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  border: 1px solid #2d6efe;
+  color: #2d6efe;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+  background-color: #fff;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-container button {
+  background-color: #eaf1ff;
+  color: #2d6efe;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+  padding: 0.5rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}

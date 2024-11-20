@@ -1,0 +1,72 @@
+.listingtopbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+
+}
+
+.listingtopbar h1 {
+  margin: 0; /* Remove default margin */
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.0775rem;
+  margin-left: 8rem;
+}
+
+.listingtopbar .search {
+  display: flex;
+  align-items: center;
+}
+
+.listingtopbar .search .searchicon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.search select {
+  display: flex;
+  padding: 0.9375rem 1.1875rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 0.625rem;
+  background: #f3f3f3;
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+  margin-left: 2rem;
+}
+
+.listings {
+    margin-left: 8rem;
+    margin-top: 3rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .listingtopbar h1 {
+        margin-left: 0rem;
+    }
+
+    .listingtopbar {
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .listings {
+        margin-left: 0rem;
+    }
+}

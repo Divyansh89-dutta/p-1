@@ -1,0 +1,85 @@
+.blog-card {
+  width: 20rem;
+}
+
+.blog-card-image {
+  width: 20.05069rem;
+  height: 14.04619rem;
+  border-radius: 1rem;
+}
+
+.blog-card h4 {
+  color: #2e6eff;
+  font-family: Poppins;
+  font-size: 0.80419rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.03219rem;
+  text-transform: uppercase;
+}
+
+.blog-card h3 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.17944rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.04719rem;
+  text-transform: capitalize;
+  width: 18.81763rem;
+}
+
+.blog-card-meta {
+  color: #939393;
+  font-family: Poppins;
+  font-size: 0.75056rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.03rem;
+  text-transform: capitalize;
+  width: 18.81763rem;
+}
+
+.author-photo {
+  width: 1.71788rem;
+  height: 1.71788rem;
+  border-radius: 1.71788rem;
+}
+
+.blog-card-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.blog-card-author p {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.02431rem;
+  text-transform: capitalize;
+}
+
+.blog-date {
+  color: #636363;
+  font-family: Poppins;
+  font-size: 0.80838rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.02431rem;
+  text-transform: capitalize;
+  margin-right: 2rem;
+}
+
+.blog-card-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

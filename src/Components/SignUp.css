@@ -1,0 +1,304 @@
+.signup {
+  display: flex;
+}
+
+.regi-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
+.regi-left h2 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 2.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1075rem;
+  margin-top: 0rem;
+}
+
+.regi-left p {
+  color: #7b7b7b;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.05rem;
+  margin-top: -1rem;
+}
+
+.regi-left form select {
+  display: flex;
+  width: 623px;
+  padding: 22px 44px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 11px;
+  border: 1px solid #979797;
+  background: #fff;
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.045rem;
+}
+
+.regi-left form input {
+  display: flex;
+  width: 32rem;
+  padding: 22px 45px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 11px;
+  border: 1px solid #979797;
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.045rem;
+}
+
+.regi-left form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.regi-left form input:focus {
+  border: 1px solid #2e6eff;
+  outline: none;
+}
+
+.regi-left form .accept-tc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.regi-left form .accept-tc {
+  margin-left: -14rem;
+}
+
+.regi-left form .accept-tc label {
+  margin-left: -14rem;
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.045rem;
+}
+
+.regi-left form button {
+  display: inline-flex;
+  padding: 1rem 3.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.75rem;
+  background: #2e6eff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.045rem;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 2rem;
+}
+
+.signup .login-img {
+  margin-left: 3rem;
+}
+
+.form-div {
+  display: flex;
+  gap: 2rem;
+}
+
+.form-div input {
+  max-width: 12rem;
+}
+
+.form-div select {
+  max-width: 18rem;
+}
+
+.agent-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.agent-form textarea {
+  min-height: 10rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.045rem;
+}
+
+.agent-form textarea:focus {
+  outline: none;
+  border: 1px solid #2e6eff;
+}
+
+.agent-form label {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.045rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .login-img {
+    max-width: 20rem;
+  }
+
+  .signup {
+    flex-direction: column;
+    margin-left: -1rem;
+  }
+
+  .form-logo {
+    display: none;
+  }
+
+  .regi-left h2 {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+    margin-top: 2rem;
+  }
+
+  .regi-left p {
+    color: #7b7b7b;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.035rem;
+  }
+
+  .regi-left form input {
+    display: flex;
+    width: 17rem;
+    padding: 0.69963rem 1.43106rem;
+    align-items: center;
+    gap: 0.318rem;
+
+    font-family: Poppins;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02288rem;
+  }
+
+  .regi-left form select {
+    width: 20rem;
+    max-height: 4rem;
+    color: #333133;
+    font-family: Poppins;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02288rem;
+    padding: 1rem;
+  }
+
+  .form-div {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .form-div input {
+    max-width: 17rem;
+  }
+
+  .form-div select {
+    max-width: 20rem;
+  }
+
+  .agent-form textarea {
+    padding: 1rem;
+    font-family: Poppins;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02288rem;
+  }
+
+  .agent-form label {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02319rem;
+  }
+
+  .regi-left form .accept-tc input {
+    margin-left: 10rem;
+  }
+
+  .regi-left form .accept-tc label {
+    margin-left: -7rem;
+    color: #333133;
+    font-family: Poppins;
+    font-size: 0.58044rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02319rem;
+  }
+
+  .regi-left form button {
+    display: flex;
+    padding: 0.51594rem 1.67681rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.32244rem;
+    border-radius: 0.38694rem;
+    background: #2e6eff;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 0.58044rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02319rem;
+  }
+}

@@ -1,0 +1,81 @@
+.PopularProps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.PopularProps h1 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 2.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.095rem;
+}
+
+.PopularProps .props-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.PopularProps a {
+  color: #faa24c;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.0475rem;
+  margin-top: 3rem;
+}
+
+.PopularProps .props-title h1 {
+  margin-left: 16rem;
+}
+
+.props-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.PopularProps .mob-view {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .PopularProps {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    align-items: center;
+  }
+
+  .PopularProps h1 {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0575rem;
+  }
+
+  .props-title {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .props-grid {
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,79 @@
+.ServicesPage {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.service-right h4 {
+  color: #faa24c;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.service-right h1 {
+  width: 32.875rem;
+  color: #333133;
+  font-family: Poppins;
+  font-size: 2.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1075rem;
+}
+
+.service-right p {
+  width: 32.875rem;
+  color: #6d6d6d;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0375rem;
+}
+
+@media (max-width: 768px) {
+  .ServicesPage {
+    flex-direction: column-reverse;
+  }
+
+  .service-right h4 {
+    color: #faa24c;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .service-right h1 {
+    width: 18.3125rem;
+    color: #333133;
+    font-family: Poppins;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0575rem;
+  }
+
+  .service-right p {
+    width: 17.5625rem;
+    color: #6d6d6d;
+    font-family: Poppins;
+    font-size: 0.78188rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.03125rem;
+  }
+
+  .ServicesPage img {
+    width: 19.5rem;
+    height: 19.5rem;
+    flex-shrink: 0;
+  }
+}

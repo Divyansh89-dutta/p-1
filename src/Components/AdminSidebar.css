@@ -1,0 +1,49 @@
+/* Setting up the font family for the entire sidebar */
+.admin-sidebar {
+    width: 15rem; /* Width of the sidebar */
+    background-color: #f8f9fa; /* Background color of the sidebar */
+    padding: 1.25rem; /* Padding inside the sidebar */
+
+    font-family: 'Poppins', sans-serif; /* Poppins font for the sidebar */
+  }
+  
+  .admin-image {
+    text-align: center;
+    margin-bottom: 1.25rem; /* Space below the image */
+  }
+  
+  
+  
+  .sidebar-menu {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* No padding for the list */
+  }
+  
+  .sidebar-item {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically center align items */
+    padding: 0.625rem 0.9375rem; /* Padding inside each menu item */
+    margin: 0.3125rem 0; /* Vertical margin between menu items */
+    border-radius: 0.3125rem; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Base font size */
+  }
+  
+  .sidebar-item .icon {
+    margin-right: 0.625rem; /* Space between icon and text */
+    font-size: 1.25rem; /* Slightly larger icon size */
+  }
+  
+  .sidebar-item.active {
+    background-color: #2D6EFE; /* Active item background color */
+    color: white; /* Text color for active item */
+  }
+  
+  .sidebar-item:not(.active):hover {
+    background-color: #e0f0ff; /* Light blue background on hover */
+  }
+  
+  .sidebar-item:not(.active) {
+    background-color: transparent; /* No background color for non-active items */
+  }

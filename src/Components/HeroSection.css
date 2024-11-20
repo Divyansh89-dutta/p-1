@@ -1,0 +1,355 @@
+.herosection {
+  display: flex;
+}
+
+.right-hero img {
+  width: 44.6875rem;
+  height: 36.9375rem;
+  flex-shrink: 0;
+}
+
+.left-hero {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0rem;
+  margin-left: 5rem;
+}
+
+.left-hero h1 {
+  width: 28.0625rem;
+  color: #333133;
+  font-family: Poppins;
+  font-size: 2.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1075rem;
+}
+
+.desc p {
+  width: 30.6875rem;
+  color: #5f5f5f;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+}
+
+.desc {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cta {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.875rem;
+}
+
+.cta div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.375rem;
+}
+
+.cta button {
+  display: flex;
+  padding: 0.875rem 2.5625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 4.125rem;
+  background: #2e6eff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.02rem;
+  border: none;
+  
+}
+
+.cta div p {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.02rem;
+}
+
+.Searchbar {
+  position: absolute;
+  display: flex;
+  padding: 1.25rem 1.6875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 3.34375rem;
+  background: #fff;
+  box-shadow: 2px 4px 50px 0px rgba(0, 0, 0, 0.06);
+
+  margin-left: 3rem;
+  margin-top: 28rem;
+}
+
+.search1,
+.search2 {
+  display: flex;
+}
+
+.prop-type,
+.prop-loca,
+.prop-size,
+.prop-budg {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+}
+
+.prop-type div p,
+.prop-loca div p,
+.prop-size div p,
+.prop-budg div p {
+  color: #606060;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prop-type select,
+.prop-budg select,
+.prop-size select {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.02125rem;
+
+  border: none;
+}
+
+.prop-loca select {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+.prop-type select::selection {
+  border: none;
+}
+
+.prop-size input {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.02125rem;
+}
+
+.Searchbar button {
+  display: flex;
+  padding: 1.1875rem 3.4375rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 2.65625rem;
+  background: #2e6eff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.02375rem;
+  border: none;
+}
+
+.heythere {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+@media (max-width: 768px) {
+  .herosection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 100vw;
+    padding: 0rem;
+  }
+
+  .left-hero {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0rem;
+    align-items: left;
+    margin-left: 2rem;
+  }
+
+  .left-hero h1 {
+    width: 16.75rem;
+    color: #333133;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+  }
+
+  .desc p {
+    width: 16.875rem;
+    color: #5f5f5f;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0325rem;
+  }
+
+  .cta button {
+    display: flex;
+    width: 6.8125rem;
+    height: 2.125rem;
+    padding: 0.3125rem 1.125rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.78125rem;
+    background: #2e6eff;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+  }
+
+  .cta img {
+    width: 2.125rem;
+    height: 2.125rem;
+  }
+
+  .cta div p {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 0.65388rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.01306rem;
+  }
+
+  .cta {
+    align-items: center;
+  }
+
+  .right-hero img {
+    width: 20.01625rem;
+    height: 16.125rem;
+    flex-shrink: 0;
+  }
+
+  .search1,
+  .search2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Searchbar {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    margin-top: 30rem;
+    width: auto;
+    padding: 0.875rem 1.5625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 4px 4px 42px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .heythere {
+    align-items: center;
+  }
+
+  .prop-type div p,
+  .prop-loca div p,
+  .prop-size div p,
+  .prop-budg div p {
+    color: #606060;
+    font-family: Poppins;
+    font-size: 0.61506rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .prop-type svg,
+  .prop-loca svg,
+  .prop-size svg,
+  .prop-budg svg {
+    width: 1.05438rem;
+    height: 1.23006rem;
+  }
+
+  .prop-type select,
+  .prop-loca select,
+  .prop-size select,
+  .prop-budg select {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 0.74681rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.01494rem;
+  }
+
+  .Searchbar button {
+    display: flex;
+    width: 6rem;
+    height: 1.8125rem;
+    padding: 0.3125rem 1.125rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.40625rem;
+    background: #2e6eff;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+  }
+}

@@ -1,0 +1,49 @@
+body {
+  overflow-x: hidden;
+  padding: 0;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #2e6eff,
+    #00aaff
+  ); /* Gradient blue color */
+  border-radius: 10px;
+  transition: background 0.3s ease-in-out; /* Smooth transition for animation */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #00aaff,
+    #2e6eff
+  ); /* Reverse gradient on hover */
+}
+
+/* Animation */
+@keyframes scrollbar-animation {
+  0% {
+    background: linear-gradient(180deg, #2e6eff, #00aaff);
+  }
+  50% {
+    background: linear-gradient(180deg, #00aaff, #2e6eff);
+  }
+  100% {
+    background: linear-gradient(180deg, #2e6eff, #00aaff);
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  animation: scrollbar-animation 2s infinite; /* Apply animation */
+}

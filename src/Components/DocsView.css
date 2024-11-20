@@ -1,0 +1,68 @@
+.adminpropheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55rem;
+  margin-left: 2rem;
+}
+
+.adminpropheader h1 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.06rem;
+}
+
+.adminpropheader img {
+  width: 2.4375rem;
+  height: 2.4375rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.adminpropheader div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.docdetails p {
+  color: #3e3e3e;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0525rem;
+  margin-left: 4rem;
+}
+
+.docbuttons button {
+  display: flex;
+  height: 3.125rem;
+  padding: 1.0625rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.375rem;
+  border: 1px solid #2d6efe;
+  color: #2d6efe;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0525rem;
+  background-color: #fff;
+}
+
+.docbuttons div {
+  display: flex;
+
+  gap: 1rem;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,55 @@
+.customers {
+  padding: 20px;
+  width: 80%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.adminpropheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.notification-icon {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.customer-table th, .customer-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+
+.customer-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: #333133;
+}
+
+.customer-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.customer-table tr:hover {
+  background-color: #f1f1f1;
+}

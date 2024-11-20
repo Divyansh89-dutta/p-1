@@ -1,0 +1,163 @@
+.se1,
+.se2,
+.se3,
+.se4 {
+  height: auto;
+  padding: 1rem 1.5625rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 1.375rem;
+  border: 1px solid #d3d3d3;
+  background: #fff;
+  display: flex;
+  gap: 2.3125rem;
+  transition: all 0.3s ease-in-out; /* Added transition */
+}
+
+.ServiceOffer h1 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 2.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.095rem;
+}
+
+.ServiceOffer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.se1:hover,
+.se2:hover,
+.se3:hover,
+.se4:hover {
+  border-radius: 1.375rem;
+  background: #fff;
+  box-shadow: 3px 4px 44px 0px rgba(0, 0, 0, 0.07);
+  border: none;
+  transition: all 0.3s ease-in-out; /* Adjusted transition */
+}
+
+.se1 .content h3,
+.se2 .content h3,
+.se3 .content h3,
+.se4 .content h3 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.065rem;
+}
+
+.se1 .content p,
+.se2 .content p,
+.se3 .content p,
+.se4 .content p {
+  width: 20.1875rem;
+  color: #333133;
+  font-family: Poppins;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0375rem;
+}
+
+.service1,
+.service2 {
+  display: flex;
+  gap: 1rem;
+}
+
+.service2 {
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .service1,
+  .service2 {
+    flex-direction: column;
+  }
+
+  .ServiceOffer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6875rem;
+  }
+
+  .ServiceOffer h1 {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0575rem;
+  }
+
+  .se1,
+  .se2,
+  .se3,
+  .se4 {
+    display: flex;
+    padding: 1.125rem 0.875rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    display: flex;
+    align-items: center;
+    gap: 1.3125rem;
+    border-radius: 1.375rem;
+    background: #fff;
+    box-shadow: 3px 4px 44px 0px rgba(0, 0, 0, 0.07);
+    border: none;
+  }
+
+  .se1 img,
+  .se2 img,
+  .se3 img,
+  .se4 img {
+    width: 4.818rem;
+    height: 5.6545rem;
+  }
+
+  .se1 .content h3,
+  .se2 .content h3,
+  .se3 .content h3,
+  .se4 .content h3 {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 0.86994rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.03481rem;
+  }
+
+  .se1 .content p,
+  .se2 .content p,
+  .se3 .content p,
+  .se4 .content p {
+    width: 10.80706rem;
+    color: #333133;
+    font-family: Poppins;
+    font-size: 0.50188rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02006rem;
+  }
+
+  .service1,
+  .service2 {
+    margin-top: 0rem;
+  }
+}

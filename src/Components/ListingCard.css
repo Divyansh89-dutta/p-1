@@ -1,0 +1,307 @@
+.housecard {
+  flex-shrink: 0;
+  border-radius: 1.85106rem;
+  background: #fff;
+  box-shadow: 3.822px 3.822px 42.993px 0px rgba(0, 0, 0, 0.05);
+  width: 22.98913rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 0;
+  padding: 1rem;
+}
+
+.img-container {
+  width: 22.98913rem;
+  height: 15.88344rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-container::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 1.85106rem 1.85106rem 1.85106rem 1.85106rem;
+  background: inherit;
+  z-index: 1;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: inset(0 0 0 0 round 1.85106rem 1.85106rem 1.85106rem 1.85106rem);
+}
+
+.housecard .prop-title {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-left: 1rem;
+}
+
+.housecard .prop-title h4 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.31369rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.05256rem;
+}
+
+.housecard .prop-location {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+
+.housecard .prop-location p {
+  color: #777;
+  font-family: Poppins;
+  font-size: 0.95538rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.03819rem;
+}
+
+.housecard .prop-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+
+.housecard .prop-info .bed,
+.housecard .prop-info .bath,
+.housecard .prop-info .car {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.housecard .prop-info .bed p,
+.housecard .prop-info .bath p,
+.housecard .prop-info .car p {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.31369rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.05256rem;
+}
+
+.housecard .prop-cta {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+
+.housecard .prop-cta p {
+  color: #faa24c;
+  font-family: Poppins;
+  font-size: 1.5525rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.06213rem;
+}
+
+.housecard .prop-cta button {
+  display: flex;
+  padding: 0.47769rem 1.61225rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.59713rem;
+  border-radius: 1.85106rem;
+  background: #2e6eff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 0.95538rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.03819rem;
+  border: none;
+}
+
+.listingicon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.overlay .modal button {
+  width: 3.1875rem;
+  height: 3.1875rem;
+  border: none;
+  border-radius: 10rem;
+  background-color: #fff;
+  filter: drop-shadow(4px 4px 34px rgba(0, 0, 0, 0.13));
+  align-self: center;
+}
+
+.overlay .modal {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.overlay .modal .popupcontent {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  align-items: center;
+  margin-top: -2rem;
+}
+
+.overlay .modal .popupcontent h6 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 0.863rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.01725rem;
+}
+
+.overlay .modal .popupcontent p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 0.863rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.01725rem;
+}
+
+@media (max-width: 768px) {
+  .housecard {
+    width: auto;
+    margin-left: 0%;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .img-container {
+    display: flex;
+    width: 17.9375rem;
+    height: 12.39319rem;
+  }
+
+  .img-container::before {
+    border-radius: 1.44431rem;
+  }
+
+  .img-container img {
+    clip-path: inset(0 0 0 0 round 1.44431rem 1.44431rem 1.44431rem 1.44431rem);
+  }
+
+  .housecard .prop-title h4 {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 1.025rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.041rem;
+  }
+
+  .housecard .prop-location p {
+    color: #777;
+    font-family: Poppins;
+    font-size: 0.74544rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02981rem;
+  }
+
+  .housecard .prop-location svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .housecard .prop-info .bed svg,
+  .housecard .prop-info .bath svg,
+  .housecard .prop-info .car svg {
+    width: 2.28294rem;
+    height: 2.28294rem;
+  }
+
+  .housecard .prop-info .bath svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .housecard .prop-info .car svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .housecard .prop-info .bed p,
+  .housecard .prop-info .bath p,
+  .housecard .prop-info .car p {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.041rem;
+  }
+
+  .housecard .prop-info {
+    display: flex;
+    margin-left: 1rem;
+  }
+
+  .housecard .prop-info .bath,
+  .housecard .prop-info .car {
+    margin-left: -0.5rem;
+  }
+
+  .housecard .prop-cta p {
+    color: #faa24c;
+    font-family: Poppins;
+    font-size: 1.21138rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.04844rem;
+  }
+
+  .housecard .prop-cta button {
+    display: flex;
+    padding: 0.37275rem 1.25794rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.46594rem;
+    border-radius: 1.44431rem;
+    background: #2e6eff;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 0.74544rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02981rem;
+  }
+
+  .housecard .prop-cta {
+    gap: 1rem;
+  }
+}

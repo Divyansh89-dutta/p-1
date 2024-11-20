@@ -1,0 +1,112 @@
+/* General body and html settings to prevent horizontal scrolling */
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: inline-flex;
+  justify-content: center; /* Center the navbar */
+  padding: 0.9375rem 2.4375rem;
+  align-items: center;
+  gap: 4.125rem;
+  width: 100%; /* Changed from 100vw to 100% */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width */
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 2.75rem;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  color: #333133;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.navbar ul button {
+  display: flex;
+  padding: 0.6875rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1.625rem;
+  background: #faa24c;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar ul button:hover {
+  border: none;
+}
+
+/* Hamburger menu styling */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+
+  body {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    gap: 2rem;
+  }
+
+  .navbar ul {
+    position: absolute;
+    top: 5rem; /* Adjust based on your navbar height */
+    left: 0;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    overflow: hidden;
+    max-height: 0;
+    gap: 0rem;
+    padding-left: 2rem;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .navbar ul.open {
+    max-height: 500px; /* Adjust based on your needs */
+  }
+
+  .navbar ul li {
+    padding: 0.5rem;
+    width: 100%;
+    text-align: left;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

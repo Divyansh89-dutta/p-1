@@ -1,0 +1,572 @@
+/* src/components/AgentProfile.css */
+.agent-profile {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.agent-profile .agent-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 9rem;
+  border-radius: 1.5rem;
+  background: #fff;
+  box-shadow: 3px 4px 16px 0px rgba(0, 0, 0, 0.06);
+  padding: 1rem;
+  width: 40%;
+  height: 14rem;
+  gap: 0.625rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  margin-top: 1.4rem;
+}
+
+.agent-header img {
+  margin-left: 1rem;
+  width: 9.0625rem;
+  height: 9.125rem;
+  border-radius: 12.125rem;
+}
+
+.agent-info p {
+  color: #2e6eff;
+  font-family: Poppins;
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0525rem;
+  margin-top: -1.4rem;
+}
+
+.agent-info h2 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.8125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.0725rem;
+}
+
+.agent-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.agent-info .contact-btn {
+  margin-top: 0rem;
+}
+
+.agent-info button {
+  width: 12.875rem;
+  height: 2.8125rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #2e6eff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.035rem;
+  margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.agent-title {
+  color: #888;
+}
+
+.agent-stats {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  align-self: center;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.statdetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-left: 1rem;
+}
+
+.statdetails p {
+  margin-top: -1.5rem;
+}
+
+.stat-section {
+  display: flex;
+  gap: 1rem;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  height: 4.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+
+  padding-bottom: 2rem;
+  border-radius: 0.8125rem;
+  background: #fff;
+  box-shadow: 3px 4px 39px 0px rgba(0, 0, 0, 0.07);
+}
+
+.divone {
+  display: flex;
+}
+
+.stat p {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.05313rem;
+}
+
+.stat h3 {
+  color: #2e6eff;
+  font-family: Poppins;
+  font-size: 1.8125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.agent-about {
+  display: flex;
+  width: 40.875rem;
+  padding: 1.4375rem 2.1875rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 1.25rem;
+  background: #fff;
+  box-shadow: 3px 4px 36px 0px rgba(0, 0, 0, 0.07);
+}
+
+.agent-about h3 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+}
+
+.agent-about p {
+  color: #5f5f5f;
+  font-family: Poppins;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0325rem;
+  margin-top: -0.7rem;
+}
+
+.divtwo .expdetail {
+  display: flex;
+  width: 24.25rem;
+  height: 4.4375rem;
+  padding: 0.4375rem 1.25rem;
+  flex-direction: column;
+
+  gap: 0.625rem;
+  border-radius: 0.625rem;
+  background: #fff;
+  box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.07);
+}
+
+.expdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 1rem;
+}
+
+.expdetail h4 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.03rem;
+}
+
+.expdetail p {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.035rem;
+  margin-top: -1rem;
+}
+
+.divtwo {
+  display: flex;
+  align-items: center;
+}
+
+.chart {
+  display: flex;
+  width: 24.1875rem;
+  padding: 1.3125rem 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1.25rem;
+  background: #fff;
+  box-shadow: 3px 4px 43px 0px rgba(0, 0, 0, 0.07);
+}
+
+.charts {
+  display: flex;
+  gap: 1.4rem;
+  margin-top: 1rem;
+}
+
+.reviews {
+  width: 40.375rem;
+  padding: 2rem;
+  flex-shrink: 0;
+  border-radius: 1.625rem;
+  background: #fff;
+  box-shadow: 4px 4px 38px 0px rgba(0, 0, 0, 0.07);
+  margin-top: 2rem;
+}
+
+.reviews .reviewactions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews .reviewactions h3 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+}
+
+.reviews .reviewactions button {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 2rem;
+  border: none;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.divthree {
+  display: flex;
+  align-items: center;
+}
+
+.leave-review {
+  display: flex;
+  flex-direction: column;
+  height: 23rem;
+  margin-left: 2rem;
+  padding: 1.5625rem 2.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1.375rem;
+  background: #fff;
+  box-shadow: 4px 4px 47px 0px rgba(0, 0, 0, 0.08);
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.divfour h2 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.095rem;
+}
+
+.divfour {
+  margin-top: 4rem;
+}
+
+.props-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.leave-review h3 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+}
+
+.leave-review button {
+  display: flex;
+  padding: 0.625rem 2.5625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 10.375rem;
+  background: #2e6eff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0375rem;
+  border: none;
+  cursor: pointer;
+  text-wrap: nowrap;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.review h4 {
+  color: #2e6eff;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0475rem;
+  margin-top: 1rem;
+}
+
+.review h6 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.0475rem;
+  margin-top: 0rem;
+}
+
+.review p {
+  color: #7c7c7c;
+  font-family: Poppins;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8125rem; /* 223.077% */
+  letter-spacing: 0.065rem;
+  margin-top: -2rem;
+}
+
+.leave-review form {
+  display: flex;
+  flex-direction: column;
+}
+
+.leave-review form input,
+.leave-review form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #a0a0a0;
+  font-family: Poppins;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0325rem;
+}
+
+.leave-review form .rating {
+  display: flex;
+  align-items: center;
+}
+
+/* src/components/AgentProfile.css */
+
+.star-rating {
+  display: flex;
+  cursor: pointer;
+}
+
+.star {
+  font-size: 24px;
+  color: #dcdcdc; /* light gray for unfilled stars */
+  transition: color 0.2s;
+}
+
+.star.filled {
+  color: #ffd700; /* gold for filled stars */
+}
+
+.rating label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form textarea {
+  margin-top: 1rem;
+}
+
+/* Media queries for screens up to 768px */
+@media (max-width: 768px) {
+  .agent-profile .agent-header {
+    margin-left: -7rem;
+    height: 8rem;
+    width: 15rem;
+    align-self: center;
+  }
+
+  .agent-header img {
+    width: 5.96119rem;
+    height: 5.96119rem;
+  }
+
+  .agent-header h2 {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0325rem;
+  }
+
+  .agent-header p {
+    color: #2e6eff;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02169rem;
+    margin-top: -0.5rem;
+  }
+
+  .agent-header button {
+    width: 6.79038rem;
+    height: 1.48331rem;
+    flex-shrink: 0;
+    border-radius: 0.26369rem;
+    background: #2e6eff;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 0.4615rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.01844rem;
+  }
+
+  .divone {
+    flex-direction: column;
+    align-items: left;
+    width: 20rem;
+    margin-left: -3rem;
+  }
+
+  .stat {
+    display: flex;
+    width: 11.40238rem;
+    height: 5.25rem;
+    padding: 0.65625rem 1.47656rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.41019rem;
+    border-radius: 0.53319rem;
+    background: #fff;
+    box-shadow: 1.969px 2.625px 25.594px 0px rgba(0, 0, 0, 0.07);
+    
+  }
+
+  .stat img {
+    width: 3.56838rem;
+    height: 3.56838rem;
+    flex-shrink: 0;
+  }
+
+  .stat h3 {
+    color: #2e6eff;
+    font-family: Poppins;
+    font-size: 1.18944rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .stat p {
+    color: #333133;
+    font-family: Poppins;
+    font-size: 0.69725rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.03488rem;
+  }
+
+  .statdetails {
+    gap: 0.6rem;
+  }
+
+  .stat-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .agent-stats {
+    margin-left: -2rem;
+  }
+
+  .agent-about {
+    width: 15rem;
+    margin-left: -6rem;
+  }
+
+  .divtwo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+}

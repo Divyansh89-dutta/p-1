@@ -1,0 +1,96 @@
+.add-new-btn {
+  background-color: #2d6efe;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Poppins;
+  margin-bottom: 20px;
+}
+
+.adminpropheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55rem;
+  margin-left: 2rem;
+}
+
+.adminpropheader h1 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.06rem;
+}
+
+.adminpropheader img {
+  width: 2.4375rem;
+  height: 2.4375rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.adminpropheader div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.blog-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+}
+
+.blog-actions {
+  display: flex;
+  gap: 1rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.blog-actions button {
+  display: flex;
+  width: 5.0625rem;
+  height: 1.6875rem;
+  padding: 0.3125rem 0.9375rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.1875rem;
+  border: 1px solid #d1d1d1;
+  color: #686868;
+  font-family: Poppins;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+.blog-actions .delete-btn {
+  display: flex;
+  width: 4rem;
+  height: 1.6875rem;
+  padding: 0.3125rem 0.9375rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.1875rem;
+  background: #fff3f3;
+  color: #ff6868;
+  font-family: Poppins;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.0375rem;
+  border: none;
+}

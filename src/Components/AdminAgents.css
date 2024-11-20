@@ -1,0 +1,179 @@
+.adminpropheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55rem;
+    margin-left: 2rem;
+  }
+  
+  .adminpropheader h1 {
+    color: #333133;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.06rem;
+  }
+  
+  .adminpropheader img {
+    width: 2.4375rem;
+    height: 2.4375rem;
+    flex-shrink: 0;
+    border-radius: 50%;
+  }
+  
+  .adminpropheader div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .add-new-btn {
+    background-color: #2D6EFE;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-new-btn:hover {
+    background-color: #1a5bd2;
+  }
+  
+  .react-tabs__tab-list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .react-tabs__tab {
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #777;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .react-tabs__tab--selected {
+    color: #2D6EFE;
+    font-weight: 700;
+    border-bottom: 2px solid #2D6EFE;
+  }
+  
+  .agent-list {
+    margin-top: 2rem;
+  }
+  
+  .agent-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 1rem; /* Gap between cards */
+  }
+  
+  .agent-card {
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .agent-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .agent-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .agent-info p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+  }
+  
+  .agent-info .agent-name,
+  .agent-info .agent-experience {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .action-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .view-btn {
+    background-color: #2D6EFE;
+    color: white;
+  }
+  
+  .view-btn:hover {
+    background-color: #1a5bd2;
+  }
+  
+  .delete-btn {
+    background-color: #e63946;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d62839;
+  }
+  
+  .approve-btn {
+    background-color: #f1faee;
+    color: #2D6EFE;
+  }
+  
+  .approve-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .restore-btn {
+    background-color: #f1faee;
+    color: #2D6EFE;
+  }
+  
+  .restore-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  @media (max-width: 1024px) {
+    .agent-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .agent-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

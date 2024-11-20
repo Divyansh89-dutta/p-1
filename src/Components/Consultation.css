@@ -1,0 +1,160 @@
+.consultation {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  background-image: url("./src/assets/newsbg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* or contain, depending on your needs */
+  border-radius: 15px; /* adjust the radius as needed */
+  overflow: hidden; /* ensures the background image respects the border radius */
+  width: 95%;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.consultation h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.095rem;
+  text-transform: capitalize;
+}
+
+.consultation p {
+  width: 66.1875rem;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.045rem;
+  text-transform: capitalize;
+  margin-top: -1rem;
+}
+
+.consultation form {
+  display: flex;
+  padding: 0.9375rem 1.0625rem;
+  align-items: center;
+  gap: 7rem;
+  border-radius: 2.375rem;
+  background: #fff;
+}
+
+.consultation form input {
+  border: none;
+  color: #333133;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+  text-transform: capitalize;
+  width: 18rem;
+  padding: 1rem;
+}
+
+.consultation form input:focus {
+  border: none;
+  outline: none;
+}
+
+.consultation form button {
+  display: flex;
+  padding: 0.625rem 2.1875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1.40625rem;
+  background: #2e6eff;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+  text-transform: capitalize;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .consultation h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.055rem;
+    text-transform: capitalize;
+    width: 12.5rem;
+  }
+
+  .consultation p {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.00875rem;
+    text-transform: capitalize;
+    width: 14.4375rem;
+    margin-top: 0;
+  }
+
+  .consultation form input[type=number] {
+    -moz-appearance: textfield; /* Firefox */
+    appearance: textfield; /* Remove the number input arrows in Chrome, Edge, and Safari */
+  }
+  
+  .consultation form input[type=number]::-webkit-outer-spin-button,
+  .consultation form input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Removes the default margin */
+  }
+  
+  
+  .consultation form {
+    display: flex;
+    padding: 0.5rem 0.5rem 0.5rem 2.375rem;
+    align-items: center;
+    border-radius: 1.375rem;
+    background: #fff;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 13rem;
+  }
+
+  .consultation {
+    padding: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 20rem;
+  }
+  
+  .consultation form input {
+    width: 10rem;
+    margin-left: -2rem;
+    
+  }
+
+  .consultation form button {
+    margin-left: -2rem;
+  }
+}
+

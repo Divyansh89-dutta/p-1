@@ -1,0 +1,317 @@
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #fafafa;
+}
+
+.contact-container {
+  display: flex;
+  background: #fafafa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.form-container {
+  flex: 1;
+  max-width: 500px;
+  margin: 2rem;
+  background-color: #ffffff;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 1.2rem;
+}
+
+.form-container h3 {
+  color: #faa24c;
+  font-family: Poppins;
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0525rem;
+}
+
+.form-container h1 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.0775rem;
+  width: 33.9375rem;
+}
+
+.form-container p {
+  color: #8d8d8d;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0475rem;
+  width: 34.75rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+}
+
+.form-group input,
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333133;
+  font-family: Poppins;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0325rem;
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+textarea {
+    height: 15rem;
+}
+
+.form-group input:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #2e6eff; /* Blue border color on focus */
+  outline: none; /* Remove default focus outline */
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.terms input {
+  margin-right: 10px;
+}
+
+.terms label a {
+  color: #ff7e24;
+  text-decoration: none;
+}
+
+.terms label {
+  color: #000;
+  font-family: Poppins;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0325rem;
+}
+
+button {
+  display: flex;
+  padding: 0.75rem 3.9375rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.5rem;
+  background: #2e6eff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0425rem;
+  border: none;
+  cursor: pointer;
+  width: 10rem;
+  align-self: center;
+  margin-top: 2rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #fafafa;
+  min-width: 300px;
+}
+
+.info-container img {
+  max-width: 100%;
+
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  text-align: center;
+  display: flex;
+  padding: 1.375rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1.5625rem;
+  background: #fff;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.contact-detail {
+  width: 22.125rem;
+
+  flex-shrink: 0;
+  display: flex;
+  border-radius: 0.875rem;
+  background: #fafafa;
+  align-items: center;
+  padding: 1.2rem;
+  gap: 2rem;
+}
+
+.contact-detail h6 {
+  color: #333133;
+  font-family: Poppins;
+  font-size: 1.15525rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.04619rem;
+  margin-top: 0rem;
+}
+
+.contact-detail p {
+  color: #787878;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+  margin-top: -2rem;
+  text-align: left;
+}
+
+.contact-detail div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-detail img {
+  margin-top: 1rem;
+}
+@media(max-width: 768px) {
+    .contact-page {
+      padding: 20px;
+    }
+  
+    .contact-container {
+      flex-direction: column;
+      padding: 0; /* Remove padding to avoid overflow */
+    }
+  
+    .form-container {
+      max-width: 100%; /* Full width for mobile screens */
+      padding: 2rem; /* Adjust padding for better fit */
+      margin: 1rem 0; /* Adjust margin for smaller screens */
+    }
+  
+    .form-container h1 {
+      font-size: 1.5rem; /* Reduce font size for headings */
+      width: 100%; /* Full width */
+    }
+  
+    .form-container p {
+      font-size: 1rem; /* Reduce font size for paragraphs */
+      width: 100%; /* Full width */
+    }
+  
+    .contact-form {
+      margin-top: 1rem; /* Reduce margin for smaller screens */
+    }
+  
+    .form-group {
+      flex-direction: column; /* Stack inputs vertically */
+    }
+  
+    .form-group input,
+    input[type="email"],
+    textarea {
+      width: 100%; /* Full width for inputs and textarea */
+      margin-bottom: 10px; /* Adjust spacing */
+    }
+  
+    textarea {
+      height: 12rem; /* Adjust height for textarea */
+    }
+  
+    .terms {
+      flex-direction: column; /* Stack terms checkbox and label vertically */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    .terms input {
+      margin-right: 0; /* Remove right margin */
+      margin-bottom: 10px; /* Adjust bottom margin */
+    }
+  
+    .terms label {
+      font-size: 0.75rem; /* Reduce font size */
+    }
+  
+    button {
+      width: 100%; /* Full width for buttons */
+      max-width: 300px; /* Optional: Set a maximum width for better appearance */
+      padding: 0.75rem; /* Adjust padding for smaller screens */
+      margin-top: 1rem; /* Reduce top margin */
+    }
+  
+    .info-container {
+      max-width: 100%; /* Full width for mobile screens */
+      padding: 1rem; /* Adjust padding */
+      margin: 1rem 0; /* Adjust margin for better fit */
+    }
+  
+    .info-container img {
+      width: 100%; /* Full width for images */
+   
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .contact-info {
+      padding: 1rem; /* Reduce padding for smaller screens */
+    }
+  
+    .contact-detail {
+      width: 100%; /* Full width for contact details */
+      padding: 1rem; /* Adjust padding */
+      box-sizing: border-box; /* Include padding in element width */
+    }
+  
+    .contact-detail img {
+      width: 24px; /* Adjust icon size */
+      height: 24px; /* Adjust icon size */
+    }
+  }
+  
